@@ -39,11 +39,6 @@ const certifications: Cert[] = [
     issuer: 'Udemy',
     year: '2022',
   },
-  {
-    title: 'Python for Data Science and AI',
-    issuer: 'Coursera / IBM',
-    year: '2021',
-  },
 ];
 
 export default function Certifications() {
