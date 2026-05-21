@@ -211,22 +211,13 @@ export default function Contact() {
                   <Linkedin className="w-5 h-5" />
                 </a>
                 <a
-                  href="https://www.upwork.com/freelancers/~soniyavarshney"
+                  href="https://www.upwork.com/freelancers/soniyav4?mp_source=share"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Hire on Upwork"
                   className="h-12 px-4 flex items-center gap-2 rounded-xl bg-card border border-border text-muted-foreground hover:text-violet hover:border-violet/50 transition-all text-xs font-mono"
                 >
                   Upwork
-                </a>
-                <a
-                  href="https://www.fiverr.com/soniyavarshney"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Hire on Fiverr"
-                  className="h-12 px-4 flex items-center gap-2 rounded-xl bg-card border border-border text-muted-foreground hover:text-violet hover:border-violet/50 transition-all text-xs font-mono"
-                >
-                  Fiverr
                 </a>
               </div>
             </div>
