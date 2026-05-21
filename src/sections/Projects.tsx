@@ -241,7 +241,7 @@ export default function Projects() {
           </p>
 
           {/* Tech Filter */}
-          <div className="mt-6 flex flex-wrap gap-2">
+          <div className="mt-6 flex gap-2 overflow-x-auto pb-1 scrollbar-none flex-nowrap md:flex-wrap">
             {allTags.map((tag) => (
               <button
                 key={tag}
@@ -343,8 +343,8 @@ export default function Projects() {
         </div>
       </div>
       {activeCaseStudy && (
-  <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm">
-    <div className="bg-card max-w-2xl w-full rounded-2xl p-6 relative">
+  <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm p-4">
+    <div className="bg-card max-w-2xl w-full rounded-2xl p-4 md:p-6 relative max-h-[85vh] overflow-y-auto">
       <button
         className="absolute top-4 right-4 text-muted-foreground hover:text-foreground"
         onClick={() => setActiveCaseStudy(null)}

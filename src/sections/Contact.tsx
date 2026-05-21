@@ -172,12 +172,12 @@ export default function Contact() {
               </p>
               <button
                 onClick={copyEmail}
-                className="flex items-center gap-3 group"
+                className="flex items-center gap-3 group min-w-0 max-w-full"
               >
-                <div className="w-10 h-10 flex items-center justify-center rounded-lg bg-violet/10 text-violet group-hover:bg-violet group-hover:text-white transition-all">
+                <div className="w-10 h-10 flex items-center justify-center rounded-lg bg-violet/10 text-violet group-hover:bg-violet group-hover:text-white transition-all flex-shrink-0">
                   <Mail className="w-5 h-5" />
                 </div>
-                <span className="text-sm text-foreground group-hover:text-violet transition-colors">
+                <span className="text-sm text-foreground group-hover:text-violet transition-colors min-w-0 break-all">
                   varshneysoniya0987@gmail.com
                 </span>
                 <div className="w-8 h-8 flex items-center justify-center rounded-lg bg-card text-muted-foreground group-hover:text-violet transition-colors">

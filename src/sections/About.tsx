@@ -199,7 +199,7 @@ export default function About() {
               <p className="text-xs font-mono uppercase tracking-wide text-muted-foreground mb-4">
                 Interests
               </p>
-              <div className="flex gap-3">
+              <div className="flex flex-wrap gap-3">
                 {interests.map((interest, index) => (
                   <div
                     key={index}
