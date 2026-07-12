@@ -159,6 +159,9 @@ export default function Hero() {
         <button onClick={() => scrollToSection('projects')} aria-label="Go to projects" className="nav-link">
           Work
         </button>
+        <button onClick={() => scrollToSection('ai-agents')} aria-label="Go to AI agents" className="nav-link hidden md:inline">
+          AI Agents
+        </button>
         <button onClick={() => scrollToSection('about')} aria-label="Go to about" className="nav-link">
           About
         </button>
@@ -202,13 +205,13 @@ export default function Hero() {
 
       {/* Role */}
       <p className="text-sm text-violet font-medium mb-4">
-        Senior Software Engineer · Freelance Automation
+        Senior Software Engineer · AI Agents & Automation
       </p>
 
       {/* Bio */}
       <p className="text-sm text-muted-foreground leading-relaxed mb-8 max-w-[320px]">
-        3.5+ years at Optum building Java microservices, Spring Boot backends, and React frontends.
-        MBA Finance. I design end-to-end freelance automation systems for startups.
+        5+ years building Java microservices, Spring Boot backends, and React/Next.js frontends.
+        MBA Finance. I design AI agents and end-to-end automation systems for startups.
       </p>
 
       {/* CTA buttons */}
@@ -231,7 +234,7 @@ export default function Hero() {
       {/* Pills */}
       <div className="flex gap-2 flex-wrap justify-center mb-6">
         <span className="px-4 py-2 bg-card rounded-full text-xs font-mono text-muted-foreground border">
-          3.5+ Years · MBA Finance
+          5+ Years · MBA Finance
         </span>
         <span className="px-4 py-2 bg-violet/10 rounded-full text-xs font-mono text-violet border border-violet/30 animate-pulse-subtle">
           Available for Freelance
@@ -261,11 +264,11 @@ export default function Hero() {
           <span className="word block text-[clamp(36px,6vw,64px)]">Varshney</span>
         </h1>
         <p className="word text-lg md:text-2xl text-violet font-medium mb-3">
-          Senior Software Engineer · Freelance Automation
+          Senior Software Engineer · AI Agents & Automation
         </p>
         <p className="word text-base text-muted-foreground max-w-[420px] leading-relaxed mb-8">
-          3.5+ years at Optum building Java microservices, Spring Boot backends, and React frontends.
-          MBA Finance. I also design end-to-end freelance automation systems — AI proposals,
+          5+ years building Java microservices, Spring Boot backends, and React/Next.js frontends.
+          MBA Finance. I design AI agents and end-to-end automation systems — AI proposals,
           client onboarding, and invoice pipelines for startups.
         </p>
 
@@ -292,7 +295,7 @@ export default function Hero() {
         {/* Pills */}
         <div ref={pillsRef} className="flex gap-3 flex-wrap">
           <span className="pill px-4 py-2 bg-card rounded-full text-xs font-mono text-muted-foreground border">
-            3.5+ Years · MBA Finance
+            5+ Years · MBA Finance
           </span>
           <span className="pill px-4 py-2 bg-violet/10 rounded-full text-xs font-mono text-violet border border-violet/30 animate-pulse-subtle">
             Available for Freelance

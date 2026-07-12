@@ -6,6 +6,7 @@ import Hero from './sections/Hero';
 import About from './sections/About';
 import Skills from './sections/Skills';
 import Experience from './sections/Experience';
+import AIAgents from './sections/AIAgents';
 import Projects from './sections/Projects';
 import Certifications from './sections/Certifications';
 import Testimonials from './sections/Testimonials';
@@ -13,6 +14,7 @@ import Contact from './sections/Contact';
 import ScrollProgress from './components/ScrollProgress';
 import BackToTop from './components/BackToTop';
 import CursorSpotlight from './components/CursorSpotlight';
+import AIChat from './components/AIChat';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -86,10 +88,14 @@ function App() {
       <About />
       <Skills />
       <Experience />
+      <AIAgents />
       <Projects />
       <Certifications />
       <Testimonials />
       <Contact />
+
+      {/* AI assistant chat widget */}
+      <AIChat />
 
       {/* Toast notifications */}
       <Toaster

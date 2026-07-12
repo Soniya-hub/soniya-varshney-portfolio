@@ -11,15 +11,15 @@ const skillCategories = [
   },
   {
     title: 'Frontend',
-    skills: ['React.js', 'Angular', 'TypeScript', 'JavaScript (ES6+)', 'HTML5/CSS3', 'TailwindCSS', 'Bootstrap', 'WordPress'],
+    skills: ['React.js', 'Next.js', 'TypeScript', 'Angular', 'JavaScript (ES6+)', 'HTML5/CSS3', 'TailwindCSS', 'WordPress'],
   },
   {
-    title: 'Automation & AI',
-    skills: ['OpenAI API', 'Prompt Engineering', 'Spring @Scheduled', 'JavaMail', 'iText PDF', 'Workflow Automation'],
+    title: 'AI & Agents',
+    skills: ['AI Agents', 'Agentic AI', 'Prompt Engineering', 'Claude API', 'OpenAI API', 'Workflow Automation'],
   },
   {
     title: 'Databases',
-    skills: ['MySQL', 'PostgreSQL', 'Oracle', 'SQL Server'],
+    skills: ['PostgreSQL', 'MySQL', 'Supabase', 'Oracle', 'SQL Server'],
   },
   {
     title: 'Cloud & DevOps',
