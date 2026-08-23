@@ -24,6 +24,31 @@ type Project = {
 };
 const projects: Project[] = [
   {
+    title: 'Ripple NDT — Tax Invoicing & Job Management System',
+    description:
+      'Production web app for a marine/vessel NDT inspection company: full job lifecycle from registration through GST-compliant invoicing, payment tracking, and role-based access. Delivered as subcontractor, end-to-end.',
+    tech: ['Next.js 16', 'Prisma 7', 'PostgreSQL', 'Supabase', 'Tailwind CSS v4'],
+    image: '/project_insurance.jpg',
+    caseStudy: {
+      role: 'Full-Stack Contractor',
+      type: 'Subcontract — Ripple NDT (Marine/Vessel Inspection)',
+      overview:
+        'A production application built for Ripple NDT to manage the full lifecycle from job registration through GST-compliant invoicing and payment tracking. Worked as a subcontractor delivering the MVP end-to-end: schema design, API layer, UI, and test coverage.',
+      contributions: [
+        'Job registration and tracking, including Work Completion Certificate (WCC) upload/versioning via Supabase Storage with signed, time-limited URLs',
+        'Tax Invoice and Proforma Invoice creation with an admin-extensible invoice-type catalog, GST breakup (CGST/SGST/IGST) computed in exact Decimal arithmetic to avoid floating-point rounding errors',
+        'Payment tracking with automatic advance carry-forward from Proforma to Tax Invoice, including race-safe handling of concurrent payments',
+        'Role-based access control (Admin, Accountant, Job Staff, Director) enforced at both middleware and route level, with a PIN-gated financial summary view separate from role permissions',
+        'Defense-in-depth permission model — every write route independently re-validates access rather than trusting the middleware gate alone',
+        'Deferred/staged file uploads (PDF, WCC certificates) that only commit to storage on successful save, with concurrent, independently-recoverable upload attempts',
+        'Customer database, Excel export, dark mode, and a fully mobile-responsive UI',
+        '170+ unit/integration tests (Vitest) and 60+ end-to-end tests (Playwright) covering every role\'s permission boundaries, not just the happy path',
+      ],
+      impact:
+        'Delivered a production-ready MVP through iterative client feedback cycles — UI reworks, permission-scoping fixes, and schema evolution without breaking existing data.',
+    },
+  },
+  {
     title: 'FlwCRM — SaaS CRM Platform',
     description:
       'Full-stack SaaS CRM for sales teams and businesses: lead pipeline management, task tracking, analytics dashboards, admin panel, and JWT-based role access. Live and deployed.',

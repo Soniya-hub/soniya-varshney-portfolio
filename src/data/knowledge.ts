@@ -33,6 +33,11 @@ export const PROFILE = {
   ],
   projects: [
     {
+      name: 'Ripple NDT — Tax Invoicing & Job Management',
+      blurb:
+        'Production web app for a marine/vessel NDT inspection company — job lifecycle, GST-compliant invoicing (CGST/SGST/IGST) with exact Decimal math, RBAC (Admin/Accountant/Job Staff/Director), 230+ tests. Next.js 16 + Prisma 7 + Supabase, delivered as subcontractor.',
+    },
+    {
       name: 'FlwCRM',
       blurb:
         'Live SaaS CRM (flwcrm.vercel.app) — lead pipeline, tasks, analytics dashboards, RBAC admin panel. React + Spring Boot + PostgreSQL, deployed on Vercel/Render.',
