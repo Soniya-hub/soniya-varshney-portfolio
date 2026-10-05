@@ -147,7 +147,7 @@ export default function About() {
             </h2>
             <div ref={bodyRef} className="space-y-4">
               <p className="text-base text-muted-foreground leading-relaxed">
-                I’m Soniya — Senior Software Engineer at Optum (UnitedHealth Group) with 3.5+ years
+                I’m Soniya — Senior Software Engineer at Optum (UnitedHealth Group) with 5+ years
                 building Java microservices, Spring Boot backends, and React frontends at enterprise scale.
                 I also hold an MBA in Finance.
               </p>
